@@ -1,7 +1,6 @@
 require 'telegram/bot'
 require './telegram/generic_answering_bot'
 require './exchange_rate'
-require 'pry'
 
 @token = ARGV[0] || ''
 
